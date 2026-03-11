@@ -1,1 +1,1 @@
-# Web_Server_Game_Guide
+This is a purchasing guide for video games across multiple genres. We will provide important information such as pricing, version status, updates, and bugs/problems to better inform the person about whether to buy the game or not. 
