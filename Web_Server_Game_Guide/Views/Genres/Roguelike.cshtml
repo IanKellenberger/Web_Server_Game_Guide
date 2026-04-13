@@ -1,0 +1,65 @@
+﻿@model GenreListViewModel
+@{
+    ViewData["Title"] = "Roguelike Games";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Next to Text</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center; /* Aligns image and text block vertically */
+            margin: 50px
+        }
+
+            .container img {
+                max-width: 300px;
+                min-width: 300px;
+                margin-right: 20px;
+            }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+        }
+
+            .text p {
+                font-size: 16px;
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://images.launchbox-app.com/2a34cdc2-70bd-49bf-842c-0976180b775a.jpg" alt="risk of rain 2">
+
+        <div class="text">
+            <h1>Risk of Rain 2</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9f4g.webp" alt="balatro">
+
+        <div class="text">
+            <h1>Balatro</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="https://static.actugaming.net/media/2024/09/slay-the-spire-2-jaquette.jpg" alt="Sample Image">
+
+        <div class="text">
+            <h1>Slay the Spire 2</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+</body>
+</html>
+

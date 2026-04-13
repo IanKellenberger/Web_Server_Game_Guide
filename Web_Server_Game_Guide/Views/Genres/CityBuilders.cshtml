@@ -1,0 +1,64 @@
+﻿@model GenreListViewModel
+@{
+    ViewData["Title"] = "City Builder Games";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Next to Text</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center; /* Aligns image and text block vertically */
+            margin: 50px
+        }
+
+            .container img {
+                max-width: 300px;
+                min-width: 300px;
+                margin-right: 20px;
+            }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+        }
+
+            .text p {
+                font-size: 16px;
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-780746-52.jpg" alt="cities skylines">
+
+        <div class="text">
+            <h1>Cities Skylines</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.IgPwYGNyBfXNHbls-9daQwHaJ5?pid=ImgDet&w=474&h=633&rs=1&o=7&rm=3" alt="sim city">
+
+        <div class="text">
+            <h1>SimCity</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.bVdhvnfVIX-RJdMAtYXOKwHaLH?pid=ImgDet&w=474&h=711&rs=1&o=7&rm=3" alt="civ 7">
+
+        <div class="text">
+            <h1>Sid Meier's Civilization VII'</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+</body>
+</html>

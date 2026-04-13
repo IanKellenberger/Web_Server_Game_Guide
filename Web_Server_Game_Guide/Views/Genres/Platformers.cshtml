@@ -1,0 +1,66 @@
+﻿@model GenreListViewModel
+@{
+    ViewData["Title"] = "Platformer Games";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Next to Text</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center; /* Aligns image and text block vertically */
+            margin: 50px
+        }
+
+            .container img {
+                max-width: 300px;
+                min-width: 300px;
+                margin-right: 20px;
+            }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+        }
+
+            .text p {
+                font-size: 16px;
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://static.wikia.nocookie.net/nintendo/images/2/28/New_Super_Mario_Bros._Wii_%28NA%29.png/revision/latest?cb=20240314050522&path-prefix=en" alt="smb wii">
+
+        <div class="text">
+            <h1>New Super Mario Bros Wii</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="https://tse1.mm.bing.net/th/id/OIP._ISAvlJJHOLBU0-oj1XJnQHaKb?pid=ImgDet&w=474&h=667&rs=1&o=7&rm=3" alt="sonic colors">
+
+        <div class="text">
+            <h1>Sonic Colors</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="https://www.mobygames.com/images/covers/l/509971-hollow-knight-voidheart-edition-playstation-4-front-cover.jpg" alt="hollow knight">
+
+        <div class="text">
+            <h1>Hollow Knight</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+</body>
+</html>
+
+

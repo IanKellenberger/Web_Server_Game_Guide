@@ -1,0 +1,64 @@
+﻿@model GenreListViewModel
+@{
+    ViewData["Title"] = "Hero Shooter Games";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Next to Text</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center; /* Aligns image and text block vertically */
+            margin: 50px
+        }
+
+            .container img {
+                max-width: 300px;
+                min-width: 300px;
+                margin-right: 20px;
+            }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+        }
+
+            .text p {
+                font-size: 16px;
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/mixcollage-08-dec-2024-02-28-pm-1309.jpg" alt="overwatch 2">
+
+        <div class="text">
+            <h1>Overwatch 2</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202202/1420/dw0HZ3WuVJyPGMFkFfHkc9vd.png" alt="paladins">
+
+        <div class="text">
+            <h1>Paladins</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="https://assets-prd.ignimgs.com/2024/03/27/marvelrivals-1711557092104.jpg?crop=1%3A1%2Csmart&format=jpg&auto=webp&quality=80" alt="marvel rivals">
+
+        <div class="text">
+            <h1>Marvel Rivals</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+</body>
+</html>
