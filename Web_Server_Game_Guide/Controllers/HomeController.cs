@@ -18,7 +18,7 @@ namespace Web_Server_Game_Guide.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
         {
             return View();
         }

@@ -1,0 +1,21 @@
+﻿@model List<string>
+
+@{
+    ViewData["Title"] = "Genres List";
+}
+
+<h1 class="display-4 text-center mt-4">Game Genres</h1>
+
+@if (Model != null && Model.Any())
+{
+    <ul class="list-group mt-4 mx-auto" style="max-width: 400px;">
+        @foreach (var genre in Model)
+        {
+            <li class="list-group-item">@genre</li>
+        }
+    </ul>
+}
+else
+{
+    <p class="text-center mt-4">No genres available.</p>
+}

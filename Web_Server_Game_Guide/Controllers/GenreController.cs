@@ -1,12 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Web_Server_Game_Guide.Controllers
+public class GenreController : Controller
 {
-    public class GenreController : Controller
+    public IActionResult GenresList()
     {
-        public IActionResult Index()
+        var genres = new List<string>
         {
-            return View();
-        }
+            "Survival",
+            "Sports",
+            "RPG",
+            "Roguelike",
+            "City Builder"
+        };
+
+        return View(genres);
     }
 }
