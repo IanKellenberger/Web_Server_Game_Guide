@@ -1,0 +1,65 @@
+﻿@model GenreListViewModel
+@{
+    ViewData["Title"] = "RPG Games";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Next to Text</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center; /* Aligns image and text block vertically */
+            margin: 50px
+        }
+
+            .container img {
+                max-width: 300px;
+                min-width: 300px;
+                margin-right: 20px;
+            }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+        }
+
+            .text p {
+                font-size: 16px;
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://cdn.mobygames.com/covers/4306305-final-fantasy-vii-playstation-front-cover.jpg" alt="final fantasy vii">
+
+        <div class="text">
+            <h1>Final Fantasy VII</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="https://images.nintendolife.com/94e6caab1fe8c/earthbound-cover.cover_large.jpg" alt="earthbound">
+
+        <div class="text">
+            <h1>EarthBound</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="https://cdn.mobygames.com/covers/5295776-shin-megami-tensei-persona-4-playstation-2-front-cover.jpg" alt="persona 4">
+
+        <div class="text">
+            <h1>Persona 4</h1>
+            <p>Text.</p>
+        </div>
+
+    </div>
+</body>
+</html>
+
