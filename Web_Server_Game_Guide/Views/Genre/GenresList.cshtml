@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Genres List";
+}
+
+<h1 class="display-4 text-center mt-4">Game Genres</h1>
+
+<div class="list-group mt-4 mx-auto" style="max-width: 400px;">
+
+    <a class="list-group-item list-group-item-action"
+       href="@Url.Action("Survival", "Genre")">
+        Survival
+    </a>
+
+    <a class="list-group-item list-group-item-action"
+       href="@Url.Action("Sports", "Genre")">
+        Sports
+    </a>
+
+    <a class="list-group-item list-group-item-action"
+       href="@Url.Action("RPG", "Genre")">
+        RPG
+    </a>
+
+    <a class="list-group-item list-group-item-action"
+       href="@Url.Action("Roguelike", "Genre")">
+        Roguelike
+    </a>
+
+    <a class="list-group-item list-group-item-action"
+       href="@Url.Action("CityBuilders", "Genre")">
+        City Builders
+    </a>
+
+</div>
